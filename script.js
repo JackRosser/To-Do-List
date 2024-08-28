@@ -51,11 +51,13 @@ let createForm = function () {
 
     // finito tutto si autorimuove
     form.remove();
+
+    // Qui vado a mettere cosa succede quando premo LI
+    taskItem.addEventListener("click", function (event) {
+      let clickedLi = event.target; // Questo è l'elemento <li> su cui è stato fatto clic
+      clickedLi.className = "text__barred";
+    });
   });
 };
 
 button.addEventListener("click", createForm);
-
-let checked = function (event) {
-  let li = document.querySelector;
-};

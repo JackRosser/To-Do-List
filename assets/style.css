@@ -57,6 +57,7 @@ ul {
   margin: 20px auto;
   padding: 0 20px;
   line-height: 1.7;
+  list-style: none;
 }
 
 li {
@@ -64,6 +65,7 @@ li {
   overflow-wrap: break-word;
   width: 100%;
   margin-block: 5px;
+  list-style: disc;
 }
 
 form {
@@ -168,8 +170,17 @@ input {
   cursor: pointer;
 }
 
-.text_barred {
-  text-decoration: dashed;
+.text__barred {
+  text-decoration: line-through;
+  color: gray;
+  list-style: none;
+}
+
+.text__barred::before {
+  content: "\f00c"; /* Codice Unicode per l'icona "check" di Font Awesome */
+  font-family: "Font Awesome 5 Free"; /* Assicurati che Font Awesome sia incluso nella pagina */
+  font-weight: 900; /* Necessario per utilizzare la versione solida dell'icona */
+  margin-right: 8px; /* Spazio tra l'icona e il testo */
 }
 
 /* <i class="fas fa-check"></i> */
