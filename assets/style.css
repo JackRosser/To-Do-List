@@ -117,7 +117,7 @@ input {
   cursor: pointer;
 }
 
-.new-task {
+#new-task {
   border: 2px solid rgb(255, 255, 255);
   border-style: hidden;
   background-color: rgb(255, 122, 122);
@@ -126,7 +126,7 @@ input {
   border-radius: 10px;
 }
 
-.new-task:hover {
+#new-task:hover {
   border-style: dashed;
   cursor: pointer;
 }
