@@ -20,8 +20,16 @@
     <main>
       <ul class="main__text"></ul>
     </main>
-    <form>
+    <div class="button__box">
       <button class="new-task">Insert New Task</button>
+    </div>
+    <form>
+      <div id="close"><i class="fas fa-window-close"></i></div>
+      <label for="calendar"></label>
+      <input type="date" id="calendar" />
+      <label for="todo"></label>
+      <textarea id="todo" rows="4" cols="50" placeholder="Insert task here"></textarea>
+      <button type="submit" id="submit">Submit!</button>
     </form>
     <script src="./script.js" defer></script>
   </body>
