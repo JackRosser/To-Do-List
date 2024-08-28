@@ -168,4 +168,8 @@ input {
   cursor: pointer;
 }
 
+.text_barred {
+  text-decoration: dashed;
+}
+
 /* <i class="fas fa-check"></i> */
