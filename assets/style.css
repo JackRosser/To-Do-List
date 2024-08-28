@@ -1,3 +1,6 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,4 +8,21 @@
 }
 body::-webkit-scrollbar {
   display: none;
+}
+
+body {
+  background-color: rgb(254, 238, 241);
+}
+
+main {
+  width: 50%;
+  height: 300px;
+  background-color: rgb(30, 30, 30);
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 10px solid rgb(255, 128, 78);
+  border-style: groove;
+  color: white;
+  font-family: "Playwrite DK Loopet", cursive;
 }
