@@ -5,6 +5,7 @@
 * {
   padding: 0;
   margin: 0;
+  border: 0;
   box-sizing: border-box;
 }
 body::-webkit-scrollbar {
@@ -23,7 +24,7 @@ button {
 
 main {
   width: 50%;
-  height: 300px;
+  height: 70vh;
   background-color: rgb(30, 30, 30);
   margin: auto;
   border-radius: 20px;
@@ -32,6 +33,21 @@ main {
   border-style: groove;
   color: white;
   font-family: "Playwrite DK Loopet", cursive;
+}
+
+ul {
+  width: 80%;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+li {
+  word-wrap: break-word; /* va a capo con parole troppo lunghe */
+  overflow-wrap: break-word;
+  width: 100%;
+  margin-block: 5px;
 }
 
 form {
@@ -54,3 +70,5 @@ form {
   border-style: dashed;
   cursor: pointer;
 }
+
+/* <i class="fas fa-check"></i> */
