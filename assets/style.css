@@ -1,5 +1,6 @@
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
   padding: 0;
@@ -12,6 +13,12 @@ body::-webkit-scrollbar {
 
 body {
   background-color: rgb(254, 238, 241);
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 
 main {
@@ -25,4 +32,25 @@ main {
   border-style: groove;
   color: white;
   font-family: "Playwrite DK Loopet", cursive;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.new-task {
+  border: 2px solid rgb(255, 255, 255);
+  border-style: hidden;
+  background-color: rgb(255, 122, 122);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.new-task:hover {
+  border-style: dashed;
+  cursor: pointer;
 }
