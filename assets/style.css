@@ -45,6 +45,7 @@ main {
   border-style: groove;
   color: white;
   font-family: "Playwrite DK Loopet", cursive;
+  overflow: auto;
 }
 
 li:hover {
@@ -177,10 +178,11 @@ input {
 }
 
 .text__barred::before {
-  content: "\f00c"; /* Codice Unicode per l'icona "check" di Font Awesome */
-  font-family: "Font Awesome 5 Free"; /* Assicurati che Font Awesome sia incluso nella pagina */
-  font-weight: 900; /* Necessario per utilizzare la versione solida dell'icona */
-  margin-right: 8px; /* Spazio tra l'icona e il testo */
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+  text-decoration: none;
 }
 
 /* <i class="fas fa-check"></i> */
